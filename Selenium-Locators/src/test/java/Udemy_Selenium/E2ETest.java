@@ -78,7 +78,13 @@ public class E2ETest {
 		
 		//calendar
 		driver.findElement(By.cssSelector(".ui-datepicker-trigger")).click();
+		driver.findElement(By.xpath("//td[@data-month='5']/a[contains(text(),'10')]")).click();
+		System.out.println(driver.findElement(By.id("ctl00_mainContent_view_date2")).isEnabled());
+		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
+		System.out.println(driver.findElement(By.id("ctl00_mainContent_view_date2")).isEnabled());	
+		/*driver.findElement(By.cssSelector(".ui-datepicker-trigger")).click();
 		driver.findElement(By.xpath("//td[@data-month='5']/a[contains(text(),'13')]")).click();
+		Thread.sleep(1000); */
 		
 		driver.close();
 
