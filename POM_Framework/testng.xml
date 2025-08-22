@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- To Convert project into test suite and execute all test file in one click Right click on on project,choose TestNg and chose Convert into test suite -->
+<!-- Step 4 : Create Suite name -->
+<suite name="Pritam_TestSuite">
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="tests.LoginTest"/>
+    </classes>
+  </test>
+</suite>
