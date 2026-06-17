@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-17T10:31:36 IST" name="Suite" finished-at="2026-06-17T10:31:57 IST" duration-ms="21147">
+    <groups>
+    </groups>
+    <test started-at="2026-06-17T10:31:36 IST" name="Test" finished-at="2026-06-17T10:31:57 IST" duration-ms="21147">
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="createLogsFolder()[pri:0, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:36 IST" name="createLogsFolder" finished-at="2026-06-17T10:31:36 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLogsFolder -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:36 IST" name="setUp" finished-at="2026-06-17T10:31:38 IST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePage(java.lang.String,java.lang.String)[pri:0, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:38 IST" name="homePage" data-provider="searchData" finished-at="2026-06-17T10:31:43 IST" duration-ms="4351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[search]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iphone17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:43 IST" name="tearDown" finished-at="2026-06-17T10:31:43 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePage status=SUCCESS method=CartTest.homePage(java.lang.String,java.lang.String)[pri:0, instance:tests.CartTest@4fbdc0f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addCart()[pri:1, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:43 IST" name="addCart" finished-at="2026-06-17T10:31:48 IST" depends-on-methods="tests.CartTest.homePage" duration-ms="4939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:48 IST" name="tearDown" finished-at="2026-06-17T10:31:48 IST" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCart status=SUCCESS method=CartTest.addCart()[pri:1, instance:tests.CartTest@4fbdc0f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="removeCart()[pri:2, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:48 IST" name="removeCart" finished-at="2026-06-17T10:31:49 IST" depends-on-methods="tests.CartTest.addCart" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:49 IST" name="tearDown" finished-at="2026-06-17T10:31:49 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeCart status=SUCCESS method=CartTest.removeCart()[pri:2, instance:tests.CartTest@4fbdc0f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.CartTest@4fbdc0f0]" started-at="2026-06-17T10:31:49 IST" name="tearDownClass" finished-at="2026-06-17T10:31:49 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.SortProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SortProductTest@5bd73d1a]" started-at="2026-06-17T10:31:49 IST" name="setUp" finished-at="2026-06-17T10:31:51 IST" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePage(java.lang.String,java.lang.String)[pri:0, instance:tests.SortProductTest@5bd73d1a]" started-at="2026-06-17T10:31:51 IST" name="homePage" data-provider="searchData" finished-at="2026-06-17T10:31:55 IST" duration-ms="4356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[search]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iphone17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SortProductTest@5bd73d1a]" started-at="2026-06-17T10:31:55 IST" name="tearDown" finished-at="2026-06-17T10:31:55 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePage status=SUCCESS method=SortProductTest.homePage(java.lang.String,java.lang.String)[pri:0, instance:tests.SortProductTest@5bd73d1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="sortProducts()[pri:1, instance:tests.SortProductTest@5bd73d1a]" started-at="2026-06-17T10:31:55 IST" name="sortProducts" finished-at="2026-06-17T10:31:57 IST" depends-on-methods="tests.SortProductTest.homePage" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SortProductTest@5bd73d1a]" started-at="2026-06-17T10:31:57 IST" name="tearDown" finished-at="2026-06-17T10:31:57 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortProducts status=SUCCESS method=SortProductTest.sortProducts()[pri:1, instance:tests.SortProductTest@5bd73d1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.SortProductTest@5bd73d1a]" started-at="2026-06-17T10:31:57 IST" name="tearDownClass" finished-at="2026-06-17T10:31:57 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.SortProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

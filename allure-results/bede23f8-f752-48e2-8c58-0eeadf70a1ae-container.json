@@ -1,0 +1,1 @@
+{"uuid":"bede23f8-f752-48e2-8c58-0eeadf70a1ae","name":"Suite","children":["06e27bae-2dea-40fc-9998-f46271004055"],"befores":[{"name":"createLogsFolder","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781672496837,"stop":1781672496840}],"afters":[],"start":1781672496816,"stop":1781672518276}

@@ -1,0 +1,39 @@
+2026-06-17 10:31:36 [main] INFO  BaseTest - ========================================
+2026-06-17 10:31:36 [main] INFO  BaseTest - Test execution started
+2026-06-17 10:31:36 [main] INFO  BaseTest - Browser selected: chrome
+2026-06-17 10:31:38 [main] INFO  BaseTest - WebDriver initialized successfully
+2026-06-17 10:31:38 [main] INFO  BaseTest - Browser window maximized
+2026-06-17 10:31:38 [main] INFO  BaseTest - Implicit wait set to 10 seconds
+2026-06-17 10:31:38 [main] INFO  BaseTest - Navigating to URL
+2026-06-17 10:31:38 [main] INFO  CartTest - Started Home Page Tests
+2026-06-17 10:31:38 [main] INFO  CartTest - Entering search text in search field
+2026-06-17 10:31:43 [main] INFO  CartTest - Search action completed successfully
+2026-06-17 10:31:43 [main] INFO  CartTest - Started Add to Cart Test
+2026-06-17 10:31:43 [main] INFO  CartTest - Applying brand filter
+2026-06-17 10:31:43 [main] INFO  CartTest - Applying storage filter
+2026-06-17 10:31:44 [main] INFO  CartTest - Clicking Add to Cart button
+2026-06-17 10:31:45 [main] INFO  CartTest - Navigating to Cart page
+2026-06-17 10:31:48 [main] INFO  CartTest - Cart count fetched from UI: 1
+2026-06-17 10:31:48 [main] INFO  CartTest - Cart count validation successful
+2026-06-17 10:31:48 [main] INFO  CartTest - Started Remove To Cart Test
+2026-06-17 10:31:48 [main] INFO  CartTest - Removing Product From Cart
+2026-06-17 10:31:49 [main] INFO  CartTest - Cart count fetched from UI: 0
+2026-06-17 10:31:49 [main] INFO  CartTest - Cart count validation successful
+2026-06-17 10:31:49 [main] INFO  BaseTest - Test execution finished. Closing browser
+2026-06-17 10:31:49 [main] INFO  BaseTest - ========================================
+2026-06-17 10:31:49 [main] INFO  BaseTest - ========================================
+2026-06-17 10:31:49 [main] INFO  BaseTest - Test execution started
+2026-06-17 10:31:49 [main] INFO  BaseTest - Browser selected: chrome
+2026-06-17 10:31:50 [main] INFO  BaseTest - WebDriver initialized successfully
+2026-06-17 10:31:50 [main] INFO  BaseTest - Browser window maximized
+2026-06-17 10:31:50 [main] INFO  BaseTest - Implicit wait set to 10 seconds
+2026-06-17 10:31:50 [main] INFO  BaseTest - Navigating to URL
+2026-06-17 10:31:51 [main] INFO  SortProductTest - Started Home Page Tests
+2026-06-17 10:31:51 [main] INFO  SortProductTest - Entering search text in search field
+2026-06-17 10:31:55 [main] INFO  SortProductTest - Search action completed successfully
+2026-06-17 10:31:55 [main] INFO  SortProductTest - Starting Sort Products Test
+2026-06-17 10:31:55 [main] INFO  SortProductTest - Fetching all products from UI
+2026-06-17 10:31:57 [main] INFO  SortProductTest - Total products fetched: 27
+2026-06-17 10:31:57 [main] INFO  SortProductTest - Sorting completed successfully
+2026-06-17 10:31:57 [main] INFO  BaseTest - Test execution finished. Closing browser
+2026-06-17 10:31:57 [main] INFO  BaseTest - ========================================
