@@ -4,6 +4,7 @@ This repository describes Selenium POM Automation Framework
 To run this project, right click on testng.xml file and run as testngsuite
 
 Project Overflow - 
+```
 pom.xml
    │
    ▼
@@ -34,3 +35,5 @@ Reports & Logs
 ├── test-output/
 ├── logs/
 └── reports/
+
+```
